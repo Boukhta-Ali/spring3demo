@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: 'jdbc:postgresql://localhost:5432/demo'
+    username: 'demo'
+    password: 'demo'
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    database: postgresql
+    show-sql: true
+  flyway:
+    schemas: 'demo'
+    user: 'demo'
+    password: 'demo'
+    url: 'jdbc:postgresql://localhost:5432/demo'
